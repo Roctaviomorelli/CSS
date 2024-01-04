@@ -1,0 +1,36 @@
+/* Reset de estilos */
+
+/* Aplicar el margen y el relleno a 0 en todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establecer la fuente y el tamaño de la fuente en todos los elementos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+/* Establecer los estilos de enlace predeterminados */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Establecer los estilos predeterminados para las listas */
+ul, ol {
+    list-style: none;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
